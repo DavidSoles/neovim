@@ -16,3 +16,7 @@ set cmdheight=2
 set updatetime=300
 
 " Statusline
+
+" NERDTree
+let NERDTreeQuitOnOpen=1
+let NERDTreeMapOpenInTab='<ENTER>'
