@@ -19,4 +19,3 @@ set updatetime=300
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
-let NERDTreeMapOpenInTab='<ENTER>'

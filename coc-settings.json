@@ -1,0 +1,15 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/Users/dsoles/.sdkman/candidates/java/8.0.302-tem"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/Users/dsoles/.sdkman/candidates/java/11.0.12-tem",
+            "default": true
+        }
+    ],
+    "java.format.settings.url": "https://gist.githubusercontent.com/DavidSoles/d3c3343330a8dc7f6177464351aa9acb/raw/d6603c1ae516a88b0cf93b34c798a1d6385a26fb/EclipseCustomProfile.xml",
+    "java.saveActions.organizeImports": true
+}

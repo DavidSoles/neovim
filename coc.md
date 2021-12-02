@@ -5,3 +5,4 @@ This is a list of CoC Extensions used during the installation.
 - coc-html
 - coc-angular
 - coc-go
+- coc-java
