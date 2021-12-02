@@ -19,3 +19,6 @@ set updatetime=300
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
+
+" Color scheme
+colorscheme gruvbox
