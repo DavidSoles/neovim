@@ -1,11 +1,16 @@
 " Keybindings
 let mapleader = ' '
-nnoremap <C-p> :FZF<CR>
-nnoremap <leader>1 :NERDTreeToggle<CR>
+nnoremap <silent>f :FZF<CR>
 nnoremap <F3> :NERDTreeToggle<CR>
+nnoremap <F4> :buffers<CR>:buffer<Space>
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
 nnoremap <C-_> :Commentary<CR>
-nnoremap <C-t> :tabnew<CR>
-nnoremap <C-[> :tabprevious<CR>
-nnoremap <C-]> :tabnext<CR>
+nnoremap <C-[> :bp<CR>
+nnoremap <C-]> :bn<CR>
+
+" Conquer Of Completion
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+

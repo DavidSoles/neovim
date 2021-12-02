@@ -12,7 +12,6 @@ set incsearch
 set scrolloff=4
 set nobackup
 set nowritebackup
-set cmdheight=2
 set updatetime=300
 
 " Statusline
@@ -22,3 +21,4 @@ let NERDTreeQuitOnOpen=1
 
 " Color scheme
 colorscheme gruvbox
+
