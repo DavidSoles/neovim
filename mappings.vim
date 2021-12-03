@@ -6,7 +6,6 @@ nnoremap <F4> :buffers<CR>:buffer<Space>
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
 nnoremap <C-_> :Commentary<CR>
-nnoremap <C-[> :bp<CR>
 nnoremap <C-]> :bn<CR>
 
 " Conquer Of Completion
