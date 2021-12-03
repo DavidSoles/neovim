@@ -10,15 +10,18 @@ set noerrorbells
 set nowrap
 set incsearch
 set scrolloff=4
+set hidden
 set nobackup
 set nowritebackup
 set updatetime=300
-
-" Statusline
+set shortmess+=c
+set colorcolumn=120
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
 
-" Color scheme
+" Color
 colorscheme gruvbox
-
+highlight Normal ctermbg=NONE guibg=NONE
+highlight SignColumn ctermbg=NONE guibg=NONE
+highlight LineNr ctermbg=NONE guibg=NONE
