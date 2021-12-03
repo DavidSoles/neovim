@@ -13,4 +13,7 @@ nnoremap <C-]> :bn<CR>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+nmap <silent> r  <Plug>(coc-rename)
+nmap <silent> c  <Plug>(coc-codeaction)
+nmap <F2> <Plug>(coc-diagnostic-next-error)
 

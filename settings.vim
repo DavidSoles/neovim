@@ -9,13 +9,14 @@ set nohlsearch
 set noerrorbells
 set nowrap
 set incsearch
-set scrolloff=4
+set scrolloff=8
 set hidden
 set nobackup
 set nowritebackup
 set updatetime=300
 set shortmess+=c
 set colorcolumn=120
+set signcolumn=yes
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
