@@ -14,7 +14,7 @@ nnoremap <C-_> :Commentary<CR>
 nnoremap <C-]> :bn<CR>
 nnoremap <silent>q :bd<CR>
 nnoremap <silent>Q :bd!<CR>
-tnoremap <Esc> <C-\><C-n>
+tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<C-\><C-n>"
 
 " Conquer Of Completion
 nmap <silent> gd <Plug>(coc-definition)
