@@ -1,5 +1,5 @@
 # Neovim Configuration
-This repository holds the necesary files to configure Neovim as a text editor for web development using Angular. Also can be use for programming in Golang and Java.
+This repository holds the necesary files to configure Neovim as a text editor.
 
 ## Prerequisites
 - Neovim 0.5 or higher (can be installed using brew)
