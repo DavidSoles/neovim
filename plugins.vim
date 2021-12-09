@@ -11,4 +11,5 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'itchyny/lightline.vim'
 Plug 'josa42/vim-lightline-coc'
 Plug 'jiangmiao/auto-pairs'
+Plug 'github/copilot.vim'
 call plug#end()
