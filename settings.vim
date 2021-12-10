@@ -7,7 +7,6 @@ set smartindent
 set number relativenumber
 set nohlsearch
 set noerrorbells
-set nowrap
 set incsearch
 set scrolloff=8
 set hidden
