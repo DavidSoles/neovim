@@ -12,4 +12,5 @@ Plug 'itchyny/lightline.vim'
 Plug 'josa42/vim-lightline-coc'
 Plug 'jiangmiao/auto-pairs'
 Plug 'github/copilot.vim'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
