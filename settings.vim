@@ -16,6 +16,7 @@ set updatetime=300
 set shortmess+=c
 set colorcolumn=120
 set signcolumn=yes
+set clipboard=unnamed
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
