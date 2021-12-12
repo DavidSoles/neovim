@@ -29,3 +29,5 @@ highlight Normal ctermbg=NONE guibg=NONE
 highlight SignColumn ctermbg=NONE guibg=NONE
 highlight LineNr ctermbg=NONE guibg=NONE
 
+" Remove Trailing Spaces
+autocmd BufWritePre * :%s/\s\+$//e
