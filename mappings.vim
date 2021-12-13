@@ -10,17 +10,17 @@ nnoremap <C-Down> <C-w><C-J>
 nnoremap <C-Up> <C-w><C-K>
 nnoremap <C-Right> <C-w><C-L>
 nnoremap <C-Left> <C-w><C-H>
-nnoremap <C-_> :Commentary<CR>
+vnoremap <C-_> :Commentary<CR>
 nnoremap <C-]> :bn<CR>
 nnoremap <silent>q :bd<CR>
 nnoremap <silent>Q :bd!<CR>
 tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<C-\><C-n>"
 
 " Conquer Of Completion
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-nmap <silent> r  <Plug>(coc-rename)
-nmap <silent> c  <Plug>(coc-codeaction)
+nmap <leader>d <Plug>(coc-definition)
+nmap <leader>i <Plug>(coc-implementation)
+nmap <leader>r <Plug>(coc-references)
+nmap <leader>R <Plug>(coc-rename)
+nmap <leader>b <Plug>(coc-codeaction)
 nmap <F2> <Plug>(coc-diagnostic-next-error)
 

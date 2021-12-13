@@ -21,14 +21,16 @@ set termguicolors
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
+let NERDTreeWinSize=60
 
-" Color
-colorscheme gruvbox
+" Color Schemes
+" colorscheme gruvbox
+colorscheme dracula
 
 " Transparency
-highlight Normal ctermbg=NONE guibg=NONE
-highlight SignColumn ctermbg=NONE guibg=NONE
-highlight LineNr ctermbg=NONE guibg=NONE
+" highlight Normal ctermbg=NONE guibg=NONE
+" highlight SignColumn ctermbg=NONE guibg=NONE
+" highlight LineNr ctermbg=NONE guibg=NONE
 
 " Remove Trailing Spaces
 autocmd BufWritePre * :%s/\s\+$//e

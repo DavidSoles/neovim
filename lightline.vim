@@ -1,5 +1,5 @@
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'dracula',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified', 'coc_status' ] ]

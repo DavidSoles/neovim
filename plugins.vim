@@ -14,4 +14,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'github/copilot.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-syntastic/syntastic'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
