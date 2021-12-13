@@ -17,6 +17,7 @@ set shortmess+=c
 set colorcolumn=120
 set signcolumn=yes
 set clipboard=unnamed
+set termguicolors
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
