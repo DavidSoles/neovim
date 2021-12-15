@@ -6,6 +6,8 @@ nnoremap <F3> :NERDTreeToggle<CR>
 nnoremap <F4> :buffers<CR>:buffer<Space>
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
+vnoremap <C-J> :m '>+1<CR>gv=gv
+vnoremap <C-K> :m '<-2<CR>gv=gv
 nnoremap <C-Down> <C-w><C-J>
 nnoremap <C-Up> <C-w><C-K>
 nnoremap <C-Right> <C-w><C-L>
