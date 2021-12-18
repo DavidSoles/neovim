@@ -8,7 +8,7 @@ set number relativenumber
 set nohlsearch
 set noerrorbells
 set incsearch
-set scrolloff=8
+set scrolloff=4
 set hidden
 set nobackup
 set nowritebackup
@@ -34,3 +34,22 @@ colorscheme dracula
 
 " Remove Trailing Spaces
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Java Template
+autocmd BufNewFile *.java call InsertJavaPackage()
+
+function! InsertJavaPackage()
+  let filename = expand("%")
+  let filename = substitute(filename, "\.java$", "", "")
+  let dir = getcwd() . "/" . filename
+  let dir = substitute(dir, "^.*\/java\/", "", "")
+  let dir = substitute(dir, "\/[^\/]*$", "", "")
+  let dir = substitute(dir, "\/", ".", "g")
+  let filename = substitute(filename, "^.*\/", "", "")
+  let dir = "package " . dir . ";"
+  let result = append(0, dir)
+  let result = append(1, "")
+  let result = append(2, "public class " . filename . " {")
+  let result = append(4, "}")
+endfunction
+

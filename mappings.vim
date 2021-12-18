@@ -1,21 +1,37 @@
 " Keybindings
 let mapleader = ' '
-nnoremap <silent>f :FZF<CR>
-nnoremap <silent>F :Rg<CR>
-nnoremap <F3> :NERDTreeToggle<CR>
-nnoremap <F4> :buffers<CR>:buffer<Space>
+nnoremap <leader>1 :NERDTreeToggle<CR>
+nnoremap <leader>2 :FZF<CR>
+nnoremap <leader>3 :Rg<CR>
+nnoremap <leader>4 :buffers<CR>
+
+" Move one line up/down in normal mode
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
-vnoremap <C-J> :m '>+1<CR>gv=gv
-vnoremap <C-K> :m '<-2<CR>gv=gv
+
+" Move block of lines up/down in visual mode
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
+
+" Move between splits using arrow keys
 nnoremap <C-Down> <C-w><C-J>
 nnoremap <C-Up> <C-w><C-K>
 nnoremap <C-Right> <C-w><C-L>
 nnoremap <C-Left> <C-w><C-H>
+
+" Comment out lines in visual mode
 vnoremap <C-_> :Commentary<CR>
+
+" Move to the next buffer
 nnoremap <C-]> :bn<CR>
+
+" Close current buffer
 nnoremap <silent>q :bd<CR>
+
+" Force close current buffer
 nnoremap <silent>Q :bd!<CR>
+
+" Close fuzzy finder window using Esc key
 tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<C-\><C-n>"
 
 " Conquer Of Completion
