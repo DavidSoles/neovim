@@ -24,9 +24,9 @@ let NERDTreeQuitOnOpen=1
 let NERDTreeWinSize=60
 
 " Color Schemes
+" colorscheme dracula
 " colorscheme gruvbox
-" colorscheme nord
-colorscheme dracula
+colorscheme nord
 
 " Transparency
 " highlight Normal ctermbg=NONE guibg=NONE
