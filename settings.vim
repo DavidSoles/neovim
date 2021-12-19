@@ -25,6 +25,7 @@ let NERDTreeWinSize=60
 
 " Color Schemes
 " colorscheme gruvbox
+" colorscheme nord
 colorscheme dracula
 
 " Transparency

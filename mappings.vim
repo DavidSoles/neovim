@@ -1,5 +1,5 @@
 " Keybindings
-let mapleader = ' '
+let mapleader = '\'
 nnoremap <leader>1 :NERDTreeToggle<CR>
 nnoremap <leader>2 :FZF<CR>
 nnoremap <leader>3 :Rg<CR>

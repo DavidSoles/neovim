@@ -15,5 +15,5 @@ Plug 'github/copilot.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-syntastic/syntastic'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'ryanoasis/vim-devicons'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
