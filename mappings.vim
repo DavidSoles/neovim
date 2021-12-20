@@ -38,7 +38,15 @@ tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<C-\><C-n>"
 nmap <leader>d <Plug>(coc-definition)
 nmap <leader>i <Plug>(coc-implementation)
 nmap <leader>r <Plug>(coc-references)
-nmap <leader>R <Plug>(coc-rename)
+nmap <leader>rr <Plug>(coc-rename)
 nmap <leader>b <Plug>(coc-codeaction)
 nmap <F2> <Plug>(coc-diagnostic-next-error)
 
+
+" Vimspector
+nnoremap <F5> :CocList mainClassListRun<CR>
+nnoremap <F8> :call vimspector#StepOver()<CR>
+nnoremap <F9> :call vimspector#StepInto()<CR>
+nnoremap <F10> :call vimspector#ToggleBreakpoint()<CR>
+nnoremap <leader>dc :call vimspector#Continue()<CR>
+nnoremap <leader>dr :call vimspector#Reset()<CR>

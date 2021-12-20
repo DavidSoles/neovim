@@ -18,6 +18,7 @@ set colorcolumn=120
 set signcolumn=yes
 set clipboard=unnamed
 set termguicolors
+set iskeyword+=-
 
 " NERDTree
 let NERDTreeQuitOnOpen=1

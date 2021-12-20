@@ -1,19 +1,20 @@
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'preservim/nerdtree'
+Plug 'airblade/vim-gitgutter'
+Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'github/copilot.vim'
+Plug 'gruvbox-community/gruvbox'
+Plug 'itchyny/lightline.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'josa42/vim-lightline-coc'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/nerdtree'
+Plug 'puremourning/vimspector'
 Plug 'stsewd/fzf-checkout.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'gruvbox-community/gruvbox'
-Plug 'itchyny/lightline.vim'
-Plug 'josa42/vim-lightline-coc'
-Plug 'jiangmiao/auto-pairs'
-Plug 'github/copilot.vim'
-Plug 'airblade/vim-gitgutter'
 Plug 'vim-syntastic/syntastic'
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'arcticicestudio/nord-vim'
 call plug#end()
