@@ -26,10 +26,10 @@ vnoremap <C-_> :Commentary<CR>
 nnoremap <C-]> :bn<CR>
 
 " Close current buffer
-nnoremap <silent>q :bd<CR>
+nnoremap <silent>q :BufClose<CR>
 
 " Force close current buffer
-nnoremap <silent>Q :bd!<CR>
+nnoremap <silent>Q :BufClose!<CR>
 
 " Close fuzzy finder window using Esc key
 tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<C-\><C-n>"
@@ -41,7 +41,6 @@ nmap <leader>r <Plug>(coc-references)
 nmap <leader>rr <Plug>(coc-rename)
 nmap <leader>b <Plug>(coc-codeaction)
 nmap <F2> <Plug>(coc-diagnostic-next-error)
-
 
 " Vimspector
 nnoremap <F5> :CocList mainClassListRun<CR>

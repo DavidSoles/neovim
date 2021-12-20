@@ -5,3 +5,4 @@ source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/lightline.vim
 source $HOME/.config/nvim/ripgrep.vim
 source $HOME/.config/nvim/checkstyle.vim
+source $HOME/.config/nvim/BufClose.vim
