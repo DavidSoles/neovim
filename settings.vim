@@ -4,7 +4,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set number relativenumber
+set number
 set nohlsearch
 set noerrorbells
 set incsearch
@@ -26,8 +26,8 @@ let NERDTreeWinSize=60
 
 " Color Schemes
 " colorscheme dracula
-" colorscheme gruvbox
-colorscheme nord
+colorscheme gruvbox
+" colorscheme nord
 
 " Transparency
 " highlight Normal ctermbg=NONE guibg=NONE

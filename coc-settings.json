@@ -2,11 +2,11 @@
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
-            "path": "/Users/dsoles/.sdkman/candidates/java/8.0.302-tem"
+            "path": "/Users/dsoles/.sdkman/candidates/java/8.0.312-tem"
         },
         {
             "name": "JavaSE-11",
-            "path": "/Users/dsoles/.sdkman/candidates/java/11.0.12-tem",
+            "path": "/Users/dsoles/.sdkman/candidates/java/11.0.13-tem",
             "default": true
         }
     ],
