@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'arcticicestudio/nord-vim'
+Plug 'doums/darcula'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'github/copilot.vim'
 Plug 'gruvbox-community/gruvbox'
