@@ -19,6 +19,7 @@ set signcolumn=yes
 set clipboard=unnamed
 set termguicolors
 set iskeyword+=-
+set guicursor=i:block
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
