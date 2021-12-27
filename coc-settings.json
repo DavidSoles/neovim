@@ -11,5 +11,6 @@
         }
     ],
     "java.format.settings.url": "https://gist.githubusercontent.com/DavidSoles/d3c3343330a8dc7f6177464351aa9acb/raw/d6603c1ae516a88b0cf93b34c798a1d6385a26fb/EclipseCustomProfile.xml",
-    "java.saveActions.organizeImports": true
+    "java.saveActions.organizeImports": true,
+    "rust-analyzer.inlayHints.enable": false
 }
