@@ -19,10 +19,11 @@ set signcolumn=yes
 set clipboard=unnamed
 set termguicolors
 set iskeyword+=-
+set mouse=a
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
-let NERDTreeWinSize=60
+let NERDTreeWinSize=40
 
 " Color Schemes
 " colorscheme dracula

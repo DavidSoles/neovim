@@ -1,6 +1,6 @@
 " Keybindings
 let mapleader = ' '
-nnoremap <C-n>1 :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <leader>ff :FZF<CR>
 nnoremap <leader>fg :Rg<CR>
 
