@@ -19,7 +19,6 @@ set signcolumn=yes
 set clipboard=unnamed
 set termguicolors
 set iskeyword+=-
-set guicursor=i:block
 
 " NERDTree
 let NERDTreeQuitOnOpen=1
@@ -27,9 +26,9 @@ let NERDTreeWinSize=60
 
 " Color Schemes
 " colorscheme dracula
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme nord
-colorscheme darcula
+" colorscheme darcula
 
 " Transparency
 " highlight Normal ctermbg=NONE guibg=NONE
